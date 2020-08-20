@@ -1,0 +1,29 @@
+/* Header.jsx */
+
+.header {
+	&__icon {
+    animation: rotate_logo 100s infinite linear;
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  &__title {
+    font-family: $font-main;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+  }
+}
+
+@keyframes rotate_logo {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* TODO: Add animation when searching */

@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto+Slab&display=swap');
+
+/* color variables */
+
+$black: #090A0B;
+$dark-grey: #1C1F22;
+$grey: #2D3339;
+$red: #D62246;
+
+/* font variables */
+
+$font-main: 'Roboto Slab', serif;
+$font-alt: 'Roboto Condensed', sans-serif;
+
+/* mixins */
+
+@mixin loadingBackground {
+	/* TODO: Create pulsating color background */
+}

@@ -1,0 +1,12 @@
+@import "variables.scss";
+@import "app.scss";
+
+/* Header */
+@import "components/header/header";
+@import "components/header/search_box/search_box";
+@import "components/header/search_box/suggestions_box/suggestions_box";
+
+/* Dashboard */
+@import "components/dashboard/dashboard";
+
+/* Visualizations */

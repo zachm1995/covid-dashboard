@@ -1,10 +1,15 @@
+@import "./variables";
+
 /* reset body styles */
 body {
   margin: 0;
   font-size: 1em;
+  background-color: $black;
+  font-family: $font-alt;
 }
 
 .app-container {
   max-width: 1200px;
   margin: 0 auto;
+  padding-top: 50px;
 }
